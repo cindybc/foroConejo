@@ -6,7 +6,7 @@ $(document).ready(function(){
 		if(name == "" && message == ""){
 			alert("Debes escribir tu nombre y el mensaje");
 		}else{
-			$('#comentarios').append('<div><span class="center-aling">' + name + '</span><p class="center-aling">' + message + '</p></div>');
+			$('#comentarios').append('<div><span class="center-align">' + name + '</span><p class="center-align">' + message + '</p></div>');
 		}
 	});
 });
